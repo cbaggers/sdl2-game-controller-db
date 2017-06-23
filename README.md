@@ -2,6 +2,8 @@
 
 Building on top of the work by the [SDL_GameControllerDB project](https://github.com/cbaggers/SDL_GameControllerDB/blob/master/LICENSE) we make the bindings available to lisp programs.
 
+It exposes 1 function, `load-db` which loads the definitions into cl-sdl2.
+
 Originally I wanted to use their txt file directly but cl-sdl2 had some issues. This represents our first attempt at dealing with this issue
 
 - `(ql:quicklisp :sdl2-game-controller-db)`
